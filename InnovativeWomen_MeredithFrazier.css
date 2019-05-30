@@ -1,0 +1,202 @@
+/*
+* Meredith Frazier
+* May 30, 2019
+* Innovative Woman - Final Project 
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body properties here */
+body {
+    width: 100%;
+    background-color: white;
+    margin: none;
+    font-family: serif;
+}
+
+/* Text size, style, and format of the h1 section. */
+h1 {
+    /* margin and padding sizes */
+    margin-bottom: 36px;
+    margin-top: 0px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding: 10px;
+    padding-top: 30px;
+    
+    /*Text size and style*/
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    font-size: 250%;
+}
+
+/* Text size, style, and format of the h2 section. */
+h2{
+    
+    background-color: aliceblue;
+    
+     /* Padding sizes */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    
+    /*Text size and style*/
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 185%;
+    color: navy;
+}
+
+
+/* Text size, style, and margins of the h4 section. */
+h4 {
+    text-align: center;
+    margin: 10px;
+    font-size: 125%;
+}
+
+/* Text size and style of the h6 section. */
+h6 {
+    text-align: center;
+    font-size: 120%;
+    color: navy;
+    text-transform: uppercase;
+}
+
+/* Text size and margin size of the p section. */
+p{
+    margin: 10px;
+    font-size: 125%;
+}
+
+/* Style and format (color and size) of the header section. */
+header {
+    border-bottom: 2px solid navy;
+    background-color: lightblue;
+    color: navy;
+    height: 100px;
+}
+
+/* Text style and box format of the #sidebarA section. */
+#sidebarA {
+    text-align: center;
+    width: 22%;
+    height: 900px;
+    float: left;
+}
+
+
+/* Size, style, and format of the #profile image. */
+#profile {
+    /* margin sizes */
+    margin-top: 10%;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 10%;
+    
+    /* border and box size */
+    border: 2px dashed navy;
+    height: auto;
+    width: auto;
+}
+
+/* Main box format */
+main {
+    width: 56%;
+    float: left;
+}
+
+/* Size, style, and format of the #interview image. */
+#interview {
+    /* margin sizes */
+    margin-right: 31%;
+    margin-left: 31%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+     /* border and box size */
+    border: 2px dashed navy;
+    height: 210px;
+    width: 310px;
+}
+
+/* Text style and box format of the #sidebarB section. */
+#sidebarB {
+    text-align: center;
+    width: 22%;
+    height: 900px;
+    float: right;
+}
+
+/* Size, style, and format of the #dinner image. */
+#dinner {
+    /* margin sizes */
+    margin-right: 14%;
+    margin-left: 14%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    /* border and box size */
+    border: 2px dashed navy;
+    height: 300px;
+    width: 200px;
+    
+}
+
+/* Nav box format */
+nav{
+    margin: 10px;
+    text-align: left;
+}
+
+/* List format */
+li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* Text size, style, and format of the footer section. */
+footer {
+    clear: both;
+    background-color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-top: 1px dotted navy;
+    border-right: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    text-align: right
+}
+
+/* This is the default link style before the page is visited. */
+a:link {
+    
+    color: navy;
+    text-decoration: underline;
+}
+
+/* This is the default link style after the page is visited. */
+a:visited {
+    
+    text-decoration: underline;
+    color: darkorchid;
+}
+
+/* This is the link style while the mouse is over the link. */
+a:hover, a:focus {
+    
+    color: darkorchid;
+    text-decoration: underline;
+    font-size: 105%;
+    
+}
+
+/* This is the link style when the mouse is pressing on the link. */
+a:active {
+    
+    color: orchid;
+    text-decoration: underline;
+}
